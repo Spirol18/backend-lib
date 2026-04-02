@@ -1,3 +1,7 @@
 .venv/
+.DS_Store
+__pycache__/
 audio_files/
-flasknvenv/
+User_input/
+uploads/
+log.txt
