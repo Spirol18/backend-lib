@@ -1,0 +1,623 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Audio File Server API",
+    "description": "Backend API for PDF-to-audiobook conversion with user authentication.\n\n## Features\n- **Authentication** – Sign up and sign in with email/password.\n- **PDF Upload** – Upload a PDF to extract text (OCR) and convert it to a WAV audio file via TTS.\n- **Audio Retrieval** – Stream the generated WAV audio file by its ID.\n",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Backend Lib"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5001",
+      "description": "Local development server"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Health",
+      "description": "Server health check"
+    },
+    {
+      "name": "Auth",
+      "description": "User registration and authentication"
+    },
+    {
+      "name": "PDF & Audio",
+      "description": "PDF upload, processing, and audio streaming"
+    },
+    {
+      "name": "Analytics",
+      "description": "Application analytics and usage tracking"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Health check",
+        "description": "Returns a plain-text confirmation that the server is running.",
+        "operationId": "healthCheck",
+        "responses": {
+          "200": {
+            "description": "Server is running",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": "Audio File Server is running."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/signup": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Register a new user",
+        "description": "Creates a new user account. Passwords are stored as bcrypt hashes.",
+        "operationId": "signup",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignupRequest"
+              },
+              "example": {
+                "name": "Jane Doe",
+                "email": "jane@example.com",
+                "password": "supersecret123"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Account created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "Account created successfully."
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error (bad name / email / short password)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "examples": {
+                  "short_name": {
+                    "value": {
+                      "message": "Name must be at least 2 characters long."
+                    }
+                  },
+                  "invalid_email": {
+                    "value": {
+                      "message": "Invalid email format."
+                    }
+                  },
+                  "short_password": {
+                    "value": {
+                      "message": "Password must be at least 8 characters long."
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Email already registered",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "User already exists."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/signin": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Signin endpoint health check",
+        "description": "Confirms that the signin endpoint is reachable.",
+        "operationId": "signinHealthCheck",
+        "responses": {
+          "200": {
+            "description": "Endpoint is available",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "Signin endpoint is available."
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Sign in",
+        "description": "Authenticates an existing user with email and password.",
+        "operationId": "signin",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SigninRequest"
+              },
+              "example": {
+                "email": "jane@example.com",
+                "password": "supersecret123"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Authentication successful",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "Authentication successful."
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid credentials",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "Invalid email or password."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/upload": {
+      "post": {
+        "tags": [
+          "PDF & Audio"
+        ],
+        "summary": "Upload a PDF and convert to audio",
+        "description": "Accepts a PDF file via `multipart/form-data`. The server:\n1. Runs OCR to extract text.\n2. Calls the internal TTS service on port 8000.\n3. Saves the resulting WAV file and returns its `audio_id` and `audio_url`.\n\nThe uploaded PDF is deleted from disk after successful processing.",
+        "operationId": "uploadPdf",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "file"
+                ],
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary",
+                    "description": "The PDF file to upload (must have a .pdf extension)"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "File uploaded and audio generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UploadResponse"
+                },
+                "example": {
+                  "message": "File uploaded successfully",
+                  "filename": "document.pdf",
+                  "audio_url": "/audio/1712000000",
+                  "audio_id": "1712000000"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "No file provided, empty filename, or non-PDF file",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "examples": {
+                  "no_file": {
+                    "value": {
+                      "message": "No file uploaded. Ensure the request is multipart/form-data and contains a 'file' field."
+                    }
+                  },
+                  "non_pdf": {
+                    "value": {
+                      "message": "Only PDF files allowed"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server-side error during OCR or TTS processing",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "TTS API failed to generate audio."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/audio/{audio_id}": {
+      "get": {
+        "tags": [
+          "PDF & Audio"
+        ],
+        "summary": "Stream audio file",
+        "description": "Returns the generated WAV audio file for the given `audio_id`. The `audio_id` is the Unix timestamp string returned by the `/upload` endpoint.",
+        "operationId": "getAudio",
+        "parameters": [
+          {
+            "name": "audio_id",
+            "in": "path",
+            "required": true,
+            "description": "The audio ID returned by the `/upload` endpoint (Unix timestamp string)",
+            "schema": {
+              "type": "string",
+              "example": "1712000000"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "WAV audio stream",
+            "content": {
+              "audio/wav": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Audio file not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "Audio file not found"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/analytics": {
+      "post": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Record user listening analytics",
+        "description": "Records information about which user is listening to which audio ID and at what timestamp.",
+        "operationId": "recordAnalytics",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AnalyticsRequest"
+              },
+              "example": {
+                "email": "jane@example.com",
+                "audio_id": "1712000000",
+                "timestamp": 12.5
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Analytics recorded successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "Analytics recorded successfully."
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error (missing fields or invalid JSON)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "examples": {
+                  "missing_fields": {
+                    "value": {
+                      "message": "Missing required fields: email, audio_id, timestamp."
+                    }
+                  },
+                  "invalid_json": {
+                    "value": {
+                      "message": "Request body must be valid JSON."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getcurrentbook": {
+      "get": {
+        "tags": [
+          "Analytics"
+        ],
+        "summary": "Get current book in progress",
+        "description": "Returns the most recently played (or still-in-progress) audiobook for a user.",
+        "operationId": "getCurrentBook",
+        "parameters": [
+          {
+            "name": "email",
+            "in": "query",
+            "description": "Filter to a specific user's listening history. Omit to get the globally most-recent book.",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "format": "email"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Current book details or nothing in progress",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CurrentBookResponse"
+                },
+                "examples": {
+                  "book_found": {
+                    "value": {
+                      "id": "1712000000",
+                      "title": "The Great Gatsby",
+                      "author": "F. Scott Fitzgerald",
+                      "progress": 0.45,
+                      "image": "https://example.com/image.jpg"
+                    }
+                  },
+                  "nothing_in_progress": {
+                    "value": {
+                      "message": "No book in progress",
+                      "id": null
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                },
+                "example": {
+                  "message": "An unexpected server error occurred: details..."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "MessageResponse": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "message"
+        ]
+      },
+      "AnalyticsRequest": {
+        "type": "object",
+        "required": [
+          "email",
+          "audio_id",
+          "timestamp"
+        ],
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email",
+            "description": "User's email",
+            "example": "jane@example.com"
+          },
+          "audio_id": {
+            "type": "string",
+            "description": "The audio ID being requested",
+            "example": "1712000000"
+          },
+          "timestamp": {
+            "type": "number",
+            "description": "Timestamp in seconds representing playback position or event time",
+            "example": 12.5
+          }
+        }
+      },
+      "CurrentBookResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true,
+            "description": "The audio ID of the book"
+          },
+          "title": {
+            "type": "string",
+            "description": "Book title"
+          },
+          "author": {
+            "type": "string",
+            "description": "Book author"
+          },
+          "progress": {
+            "type": "number",
+            "format": "float",
+            "description": "Playback progress from 0.0 to 1.0"
+          },
+          "image": {
+            "type": "string",
+            "description": "URL to the book's cover image"
+          },
+          "message": {
+            "type": "string",
+            "description": "Present when no book is in progress"
+          }
+        }
+      },
+      "SignupRequest": {
+        "type": "object",
+        "required": [
+          "name",
+          "email",
+          "password"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 2,
+            "description": "Full name of the user",
+            "example": "Jane Doe"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "description": "Valid email address",
+            "example": "jane@example.com"
+          },
+          "password": {
+            "type": "string",
+            "minLength": 8,
+            "format": "password",
+            "description": "Password (min 8 characters)",
+            "example": "supersecret123"
+          }
+        }
+      },
+      "SigninRequest": {
+        "type": "object",
+        "required": [
+          "email",
+          "password"
+        ],
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email",
+            "example": "jane@example.com"
+          },
+          "password": {
+            "type": "string",
+            "minLength": 8,
+            "format": "password",
+            "example": "supersecret123"
+          }
+        }
+      },
+      "UploadResponse": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string",
+            "description": "Original uploaded filename"
+          },
+          "audio_url": {
+            "type": "string",
+            "description": "Relative URL to stream the generated audio"
+          },
+          "audio_id": {
+            "type": "string",
+            "description": "Unique audio identifier (Unix timestamp)"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,120 +1,1421 @@
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2YS52ZHlGsfB7Aib
-Files: ImmutableMultiDict([])
-Form: ImmutableMultiDict([('file', '[object Object]')])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '150', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary2YS52ZHlGsfB7Aib', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDEo7VNye2MLk82re
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryDEo7VNye2MLk82re', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1WVi2tOCXxn0vZbA
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary1WVi2tOCXxn0vZbA', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybK7K9kfBXgMRKtnp
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarybK7K9kfBXgMRKtnp', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYk2N5FO5HlLAHZJT
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryYk2N5FO5HlLAHZJT', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9yMBkjtCupyfEKbM
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary9yMBkjtCupyfEKbM', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysAPRCWR94ABpB6Qj
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarysAPRCWR94ABpB6Qj', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzDFn1ihAO380Te6t
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryzDFn1ihAO380Te6t', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary8BrXKAArqGcWTOSq
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary8BrXKAArqGcWTOSq', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHuMiTorhUyXvODCo
-Files: ImmutableMultiDict([('file', <FileStorage: 'final-audiovoiceover.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '2262561', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryHuMiTorhUyXvODCo', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryy8SJBPOxWTnzhTGx
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryy8SJBPOxWTnzhTGx', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKhuYuTukBvYJYFkX
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryKhuYuTukBvYJYFkX', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0dyKcCRO2NM7daAc
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary0dyKcCRO2NM7daAc', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryIkOc6CJttB3K5uQV
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryIkOc6CJttB3K5uQV', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytVVBRXrXZYxCho6V
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarytVVBRXrXZYxCho6V', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRHpB34RUXlM4P3q9
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryRHpB34RUXlM4P3q9', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryk6U4wBTlcljczKXP
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryk6U4wBTlcljczKXP', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBEgFoRVxC9Jm8p3W
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryBEgFoRVxC9Jm8p3W', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4oXlYTCkpdNcwWyd
-Files: ImmutableMultiDict([('file', <FileStorage: 'Confirmation-Page.Pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '353849', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary4oXlYTCkpdNcwWyd', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqlHvLV4ZH7iPPjxS
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryqlHvLV4ZH7iPPjxS', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryQ1yo3jZnYlnQKRRt
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryQ1yo3jZnYlnQKRRt', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykB0C36QO24DcQXZT
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarykB0C36QO24DcQXZT', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8082', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8082/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0cuo3A23dET0GSY6
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary0cuo3A23dET0GSY6', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8082', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8082/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVEA70qHc38JXOhhA
-Files: ImmutableMultiDict([('file', <FileStorage: 'input.pdf' ('application/pdf')>)])
-Form: ImmutableMultiDict([])
-Headers: {'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '40413', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Not:A-Brand";v="99", "Brave";v="145", "Chromium";v="145"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryVEA70qHc38JXOhhA', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8082', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8082/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
----
+2026-04-01 18:22:41 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:22:41 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:27:33 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:27:49 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:29:11 | INFO     | backend_lib.main | Health-check hit
+2026-04-01 18:29:14 | INFO     | backend_lib.main | Health-check hit
+2026-04-01 18:29:39 | DEBUG    | backend_lib.main | Upload request received | Content-Type=multipart/form-data; boundary=----WebKitFormBoundary6WYQhxveo0B9oyCV
+2026-04-01 18:29:39 | DEBUG    | backend_lib.main | Upload request files=ImmutableMultiDict([('file', <FileStorage: 'Untitled.pdf' ('application/pdf')>)])  form=ImmutableMultiDict([])
+2026-04-01 18:29:39 | DEBUG    | backend_lib.main | Upload request headers={'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '10855', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'Accept': 'application/json', 'Sec-Ch-Ua': '"Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary6WYQhxveo0B9oyCV', 'Sec-Ch-Ua-Mobile': '?0', 'Origin': 'http://localhost:5001', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:5001/docs/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9'}
+2026-04-01 18:29:39 | INFO     | backend_lib.main | PDF saved to 'uploads/Untitled.pdf'
+2026-04-01 18:29:39 | INFO     | backend_lib.main | Starting PDF processing pipeline for 'Untitled.pdf'
+2026-04-01 18:29:39 | INFO     | backend_lib.preprocess | Processing PDF: 'Untitled'
+2026-04-01 18:29:39 | INFO     | backend_lib.preprocess | Starting OCR on 1 page(s) of 'uploads/Untitled.pdf'
+2026-04-01 18:29:39 | DEBUG    | backend_lib.preprocess | OCR page 1/1
+2026-04-01 18:29:39 | INFO     | backend_lib.preprocess | OCR complete: extracted 26 chars total
+2026-04-01 18:29:39 | DEBUG    | backend_lib.preprocess | Raw OCR text saved to 'User_input/ocr_text/Untitled.txt'
+2026-04-01 18:29:39 | DEBUG    | backend_lib.preprocess | Cleaned text saved to 'User_input/clean_text/Untitled_clean.txt'
+2026-04-01 18:29:39 | INFO     | backend_lib.preprocess | Pipeline complete: 1 sentences saved to 'User_input/final_sentences/Untitled_sentences.txt'
+2026-04-01 18:29:39 | INFO     | backend_lib.main | PDF processed: 1 sentences extracted
+2026-04-01 18:29:39 | INFO     | backend_lib.main | Sending 14 chars to TTS API on port 8000
+2026-04-01 18:29:39 | ERROR    | backend_lib.main | Error during PDF processing or TTS call: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /message (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [Errno 61] Connection refused"))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/connection.py", line 500, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1353, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1113, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1057, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /message (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [Errno 61] Connection refused"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sufalpaudel/Desktop/frontend/backend-lib/main.py", line 128, in upload_pdf
+    tts_response = requests.post(
+        "http://127.0.0.1:8000/message",
+        json={"text": processed_text},
+        timeout=120
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /message (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [Errno 61] Connection refused"))
+2026-04-01 18:30:13 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:30:13 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:37:21 | DEBUG    | backend_lib.main | Upload request received | Content-Type=multipart/form-data; boundary=----WebKitFormBoundaryT6cDAAfGZAGwQOSh
+2026-04-01 18:37:21 | DEBUG    | backend_lib.main | Upload request files=ImmutableMultiDict([('file', <FileStorage: 'Untitled.pdf' ('application/pdf')>)])  form=ImmutableMultiDict([])
+2026-04-01 18:37:21 | DEBUG    | backend_lib.main | Upload request headers={'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '10855', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'Accept': 'application/json', 'Sec-Ch-Ua': '"Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryT6cDAAfGZAGwQOSh', 'Sec-Ch-Ua-Mobile': '?0', 'Origin': 'http://localhost:5001', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:5001/docs/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9'}
+2026-04-01 18:37:21 | INFO     | backend_lib.main | PDF saved to 'uploads/Untitled.pdf'
+2026-04-01 18:37:21 | INFO     | backend_lib.main | Starting PDF processing pipeline for 'Untitled.pdf'
+2026-04-01 18:37:21 | INFO     | backend_lib.preprocess | Processing PDF: 'Untitled'
+2026-04-01 18:37:21 | INFO     | backend_lib.preprocess | Starting OCR on 1 page(s) of 'uploads/Untitled.pdf'
+2026-04-01 18:37:21 | DEBUG    | backend_lib.preprocess | OCR page 1/1
+2026-04-01 18:37:22 | INFO     | backend_lib.preprocess | OCR complete: extracted 26 chars total
+2026-04-01 18:37:22 | DEBUG    | backend_lib.preprocess | Raw OCR text saved to 'User_input/ocr_text/Untitled.txt'
+2026-04-01 18:37:22 | DEBUG    | backend_lib.preprocess | Cleaned text saved to 'User_input/clean_text/Untitled_clean.txt'
+2026-04-01 18:37:22 | INFO     | backend_lib.preprocess | Pipeline complete: 1 sentences saved to 'User_input/final_sentences/Untitled_sentences.txt'
+2026-04-01 18:37:22 | INFO     | backend_lib.main | PDF processed: 1 sentences extracted
+2026-04-01 18:37:22 | INFO     | backend_lib.main | Sending 14 chars to TTS API on port 8000
+2026-04-01 18:37:23 | INFO     | backend_lib.main | Audio generated and saved to 'audio_files/audio1775047943.wav' (audio_id=1775047943)
+2026-04-01 18:37:23 | INFO     | backend_lib.main | Deleted uploaded file: 'uploads/Untitled.pdf'
+2026-04-01 18:37:35 | DEBUG    | backend_lib.main | Upload request received | Content-Type=multipart/form-data; boundary=----WebKitFormBoundarypGdLDqrkT4JGGe4b
+2026-04-01 18:37:35 | DEBUG    | backend_lib.main | Upload request files=ImmutableMultiDict([('file', <FileStorage: 'Untitled.pdf' ('application/pdf')>)])  form=ImmutableMultiDict([])
+2026-04-01 18:37:35 | DEBUG    | backend_lib.main | Upload request headers={'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '10855', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'Accept': 'application/json', 'Sec-Ch-Ua': '"Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarypGdLDqrkT4JGGe4b', 'Sec-Ch-Ua-Mobile': '?0', 'Origin': 'http://localhost:5001', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:5001/docs/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9'}
+2026-04-01 18:37:35 | INFO     | backend_lib.main | PDF saved to 'uploads/Untitled.pdf'
+2026-04-01 18:37:35 | INFO     | backend_lib.main | Starting PDF processing pipeline for 'Untitled.pdf'
+2026-04-01 18:37:35 | INFO     | backend_lib.preprocess | Processing PDF: 'Untitled'
+2026-04-01 18:37:35 | INFO     | backend_lib.preprocess | Starting OCR on 1 page(s) of 'uploads/Untitled.pdf'
+2026-04-01 18:37:35 | DEBUG    | backend_lib.preprocess | OCR page 1/1
+2026-04-01 18:37:35 | INFO     | backend_lib.preprocess | OCR complete: extracted 26 chars total
+2026-04-01 18:37:35 | DEBUG    | backend_lib.preprocess | Raw OCR text saved to 'User_input/ocr_text/Untitled.txt'
+2026-04-01 18:37:35 | DEBUG    | backend_lib.preprocess | Cleaned text saved to 'User_input/clean_text/Untitled_clean.txt'
+2026-04-01 18:37:35 | INFO     | backend_lib.preprocess | Pipeline complete: 1 sentences saved to 'User_input/final_sentences/Untitled_sentences.txt'
+2026-04-01 18:37:35 | INFO     | backend_lib.main | PDF processed: 1 sentences extracted
+2026-04-01 18:37:35 | INFO     | backend_lib.main | Sending 14 chars to TTS API on port 8000
+2026-04-01 18:37:36 | INFO     | backend_lib.main | Audio generated and saved to 'audio_files/audio1775047956.wav' (audio_id=1775047956)
+2026-04-01 18:37:36 | INFO     | backend_lib.main | Deleted uploaded file: 'uploads/Untitled.pdf'
+2026-04-01 18:44:04 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:44:51 | DEBUG    | backend_lib.main | Upload request received | Content-Type=multipart/form-data; boundary=----WebKitFormBoundaryZNxCq5AfadXdEeCR
+2026-04-01 18:44:51 | DEBUG    | backend_lib.main | Upload request files=ImmutableMultiDict([('file', <FileStorage: 'Untitled.pdf' ('application/pdf')>)])  form=ImmutableMultiDict([])
+2026-04-01 18:44:51 | DEBUG    | backend_lib.main | Upload request headers={'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '10855', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="146", "Not-A.Brand";v="24", "Brave";v="146"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryZNxCq5AfadXdEeCR', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
+2026-04-01 18:44:51 | INFO     | backend_lib.main | PDF saved to 'uploads/Untitled.pdf'
+2026-04-01 18:44:51 | INFO     | backend_lib.main | Starting PDF processing pipeline for 'Untitled.pdf'
+2026-04-01 18:44:51 | INFO     | backend_lib.preprocess | Processing PDF: 'Untitled'
+2026-04-01 18:44:51 | INFO     | backend_lib.preprocess | Starting OCR on 1 page(s) of 'uploads/Untitled.pdf'
+2026-04-01 18:44:51 | DEBUG    | backend_lib.preprocess | OCR page 1/1
+2026-04-01 18:44:51 | INFO     | backend_lib.preprocess | OCR complete: extracted 26 chars total
+2026-04-01 18:44:51 | DEBUG    | backend_lib.preprocess | Raw OCR text saved to 'User_input/ocr_text/Untitled.txt'
+2026-04-01 18:44:51 | DEBUG    | backend_lib.preprocess | Cleaned text saved to 'User_input/clean_text/Untitled_clean.txt'
+2026-04-01 18:44:51 | INFO     | backend_lib.preprocess | Pipeline complete: 1 sentences saved to 'User_input/final_sentences/Untitled_sentences.txt'
+2026-04-01 18:44:51 | INFO     | backend_lib.main | PDF processed: 1 sentences extracted
+2026-04-01 18:44:51 | INFO     | backend_lib.main | Sending 77 chars to TTS API on port 8000
+2026-04-01 18:44:53 | INFO     | backend_lib.main | Audio generated and saved to 'audio_files/audio1775048393.wav' (audio_id=1775048393)
+2026-04-01 18:44:53 | INFO     | backend_lib.main | Deleted uploaded file: 'uploads/Untitled.pdf'
+2026-04-01 18:44:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='1775048393' -> file='audio_files/audio1775048393.wav'
+2026-04-01 18:44:54 | INFO     | backend_lib.main | Serving audio file: 'audio1775048393.wav'
+2026-04-01 18:48:24 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:48:40 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:48:40 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:48:56 | DEBUG    | backend_lib.main | Upload request received | Content-Type=multipart/form-data; boundary=----WebKitFormBoundary0sItEf3J131XmGrM
+2026-04-01 18:48:56 | DEBUG    | backend_lib.main | Upload request files=ImmutableMultiDict([('file', <FileStorage: 'Untitled.pdf' ('application/pdf')>)])  form=ImmutableMultiDict([])
+2026-04-01 18:48:56 | DEBUG    | backend_lib.main | Upload request headers={'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '10855', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="146", "Not-A.Brand";v="24", "Brave";v="146"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary0sItEf3J131XmGrM', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
+2026-04-01 18:48:56 | INFO     | backend_lib.main | PDF saved to 'uploads/Untitled.pdf'
+2026-04-01 18:48:56 | INFO     | backend_lib.main | Starting PDF processing pipeline for 'Untitled.pdf'
+2026-04-01 18:48:56 | INFO     | backend_lib.preprocess | Processing: Untitled
+2026-04-01 18:48:56 | INFO     | backend_lib.preprocess | OCR: 1 pages
+2026-04-01 18:48:57 | INFO     | backend_lib.preprocess | Done: 1 sentences
+2026-04-01 18:48:57 | INFO     | backend_lib.main | PDF processed: 1 sentences extracted
+2026-04-01 18:48:57 | INFO     | backend_lib.main | Sending 14 chars to TTS API on port 8000
+2026-04-01 18:48:57 | INFO     | backend_lib.main | Audio generated and saved to 'audio_files/audio1775048637.wav' (audio_id=1775048637)
+2026-04-01 18:48:57 | INFO     | backend_lib.main | Deleted uploaded file: 'uploads/Untitled.pdf'
+2026-04-01 18:48:58 | DEBUG    | backend_lib.main | Audio requested: audio_id='1775048637' -> file='audio_files/audio1775048637.wav'
+2026-04-01 18:48:58 | INFO     | backend_lib.main | Serving audio file: 'audio1775048637.wav'
+2026-04-01 18:51:46 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 18:52:29 | DEBUG    | backend_lib.main | Upload request received | Content-Type=multipart/form-data; boundary=----WebKitFormBoundarybmfJquwFx0RQ1ZBp
+2026-04-01 18:52:29 | DEBUG    | backend_lib.main | Upload request files=ImmutableMultiDict([('file', <FileStorage: 'Untitled.pdf' ('application/pdf')>)])  form=ImmutableMultiDict([])
+2026-04-01 18:52:29 | DEBUG    | backend_lib.main | Upload request headers={'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '10855', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="146", "Not-A.Brand";v="24", "Brave";v="146"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarybmfJquwFx0RQ1ZBp', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
+2026-04-01 18:52:29 | INFO     | backend_lib.main | PDF saved to 'uploads/Untitled.pdf'
+2026-04-01 18:52:29 | INFO     | backend_lib.main | Starting PDF processing pipeline for 'Untitled.pdf'
+2026-04-01 18:52:29 | INFO     | backend_lib.preprocess | Processing: Untitled
+2026-04-01 18:52:29 | INFO     | backend_lib.preprocess | OCR: 1 pages
+2026-04-01 18:52:30 | INFO     | backend_lib.preprocess | Done: 1 sentences
+2026-04-01 18:52:30 | INFO     | backend_lib.main | PDF processed: 1 sentences extracted
+2026-04-01 18:52:30 | INFO     | backend_lib.main | Sending 77 chars to TTS API on port 8000
+2026-04-01 18:52:31 | INFO     | backend_lib.main | Audio generated and saved to 'audio_files/audio1775048851.wav' (audio_id=1775048851)
+2026-04-01 18:52:31 | INFO     | backend_lib.main | Deleted uploaded file: 'uploads/Untitled.pdf'
+2026-04-01 18:52:33 | DEBUG    | backend_lib.main | Audio requested: audio_id='1775048851' -> file='audio_files/audio1775048851.wav'
+2026-04-01 18:52:33 | INFO     | backend_lib.main | Serving audio file: 'audio1775048851.wav'
+2026-04-01 18:57:41 | DEBUG    | backend_lib.main | Upload request received | Content-Type=multipart/form-data; boundary=----WebKitFormBoundary2fCXyepjtKdqm0DC
+2026-04-01 18:57:41 | DEBUG    | backend_lib.main | Upload request files=ImmutableMultiDict([('file', <FileStorage: 'Untitled.pdf' ('application/pdf')>)])  form=ImmutableMultiDict([])
+2026-04-01 18:57:41 | DEBUG    | backend_lib.main | Upload request headers={'Host': 'localhost:5001', 'Connection': 'keep-alive', 'Content-Length': '10855', 'Sec-Ch-Ua-Platform': '"macOS"', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 'Sec-Ch-Ua': '"Chromium";v="146", "Not-A.Brand";v="24", "Brave";v="146"', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary2fCXyepjtKdqm0DC', 'Sec-Ch-Ua-Mobile': '?0', 'Accept': '*/*', 'Sec-Gpc': '1', 'Accept-Language': 'en-US,en;q=0.7', 'Origin': 'http://localhost:8081', 'Sec-Fetch-Site': 'same-site', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://localhost:8081/', 'Accept-Encoding': 'gzip, deflate, br, zstd'}
+2026-04-01 18:57:41 | INFO     | backend_lib.main | PDF saved to 'uploads/Untitled.pdf'
+2026-04-01 18:57:41 | INFO     | backend_lib.main | Starting PDF processing pipeline for 'Untitled.pdf'
+2026-04-01 18:57:41 | INFO     | backend_lib.preprocess | Processing: Untitled
+2026-04-01 18:57:41 | INFO     | backend_lib.preprocess | OCR: 1 pages
+2026-04-01 18:57:42 | INFO     | backend_lib.preprocess | Done: 1 sentences
+2026-04-01 18:57:42 | INFO     | backend_lib.main | PDF processed: 1 sentences extracted
+2026-04-01 18:57:42 | INFO     | backend_lib.main | Sending 77 chars to TTS API on port 8000
+2026-04-01 18:57:43 | INFO     | backend_lib.main | Audio generated and saved to 'audio_files/audio1775049163.wav' (audio_id=1775049163)
+2026-04-01 18:57:43 | INFO     | backend_lib.main | Deleted uploaded file: 'uploads/Untitled.pdf'
+2026-04-01 18:57:44 | DEBUG    | backend_lib.main | Audio requested: audio_id='1775049163' -> file='audio_files/audio1775049163.wav'
+2026-04-01 18:57:44 | INFO     | backend_lib.main | Serving audio file: 'audio1775049163.wav'
+2026-04-01 21:55:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:55:55 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:55:56 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:55:56 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:55:56 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:55:56 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:55:57 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:55:57 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:55:59 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:55:59 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:00 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:00 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:00 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:00 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:01 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:01 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:03 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:56:03 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:56:04 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:56:04 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:56:04 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:56:04 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:56:05 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:56:05 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:56:05 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:56:05 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:56:07 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:56:07 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:56:07 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:56:07 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:56:07 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:56:07 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:56:50 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:50 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:51 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:51 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:51 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:51 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:52 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:52 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:54 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:55 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:55 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:56:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:56:55 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:57:02 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:57:02 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:57:03 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:57:03 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:57:03 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:57:03 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:57:05 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:57:05 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:01 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:01 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:01 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:01 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:01 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:01 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:02 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:02 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:08 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:08 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:09 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:09 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:09 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:09 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:10 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:11 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:58:11 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:58:12 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:58:12 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:58:12 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:58:12 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:58:12 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:58:12 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:58:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='304' -> file='audio_files/audio304.wav'
+2026-04-01 21:58:14 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio304.wav'
+2026-04-01 21:58:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='304' -> file='audio_files/audio304.wav'
+2026-04-01 21:58:14 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio304.wav'
+2026-04-01 21:58:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='304' -> file='audio_files/audio304.wav'
+2026-04-01 21:58:14 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio304.wav'
+2026-04-01 21:58:16 | DEBUG    | backend_lib.main | Audio requested: audio_id='304' -> file='audio_files/audio304.wav'
+2026-04-01 21:58:16 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio304.wav'
+2026-04-01 21:58:28 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:28 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:29 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:29 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:29 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:29 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:29 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:29 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:58 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:58 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:58 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:58 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:58 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:58 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:58:59 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:58:59 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:59:12 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:59:12 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:59:13 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:59:13 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:59:13 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:59:13 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:59:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:59:14 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:59:36 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:59:36 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:59:37 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:59:37 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:59:37 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:59:37 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:59:38 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 21:59:38 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 21:59:42 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:59:42 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:59:43 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:59:43 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:59:43 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:59:43 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 21:59:44 | DEBUG    | backend_lib.main | Audio requested: audio_id='302' -> file='audio_files/audio302.wav'
+2026-04-01 21:59:44 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio302.wav'
+2026-04-01 22:00:25 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:00:25 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:00:26 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:00:26 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:00:26 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:00:26 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:00:27 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:00:27 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:07:22 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 22:15:45 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:15:45 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:15:46 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:15:46 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:15:46 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:15:46 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:15:48 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:15:48 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:15:56 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:15:56 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:15:57 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:15:57 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:15:57 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:15:57 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:15:58 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:15:58 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:17:58 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:17:58 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:17:59 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:17:59 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:17:59 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:17:59 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:18:00 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:18:00 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:20:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:20:21 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:20:22 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:20:22 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:20:22 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:20:22 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:20:22 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:20:22 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:23:17 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 22:30:13 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 22:30:13 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 22:33:29 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 22:38:20 | INFO     | backend_lib.main | Health-check hit
+2026-04-01 22:39:44 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 22:39:44 | INFO     | backend_lib.main | Analytics recorded for email='jane@example.com' audio_id='1712000000'
+2026-04-01 22:39:45 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 22:39:45 | INFO     | backend_lib.main | Analytics recorded for email='jane@example.com' audio_id='1712000000'
+2026-04-01 22:41:18 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:41:18 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:41:20 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:41:20 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:41:20 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:41:20 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:41:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:41:21 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:53:48 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:53:48 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:53:49 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:53:49 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:53:49 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:53:49 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:53:50 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 22:53:50 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 22:57:31 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 22:59:18 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 22:59:18 | INFO     | backend_lib.main | GetCurrentBook: no analytics records found (email_filter='amritpandey113@gmail.com')
+2026-04-01 23:02:34 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:02:34 | WARNING  | backend_lib.main | GetCurrentBook: audio file missing for audio_id='1712000000', skipping
+2026-04-01 23:02:47 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:02:47 | WARNING  | backend_lib.main | GetCurrentBook: audio file missing for audio_id='1712000000', skipping
+2026-04-01 23:17:20 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:17:20 | WARNING  | backend_lib.main | GetCurrentBook: audio file missing for audio_id='1712000000', skipping
+2026-04-01 23:17:33 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:17:33 | WARNING  | backend_lib.main | GetCurrentBook: audio file missing for audio_id='1712000000', skipping
+2026-04-01 23:17:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 23:17:54 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 23:17:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 23:17:55 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 23:17:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 23:17:55 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 23:17:56 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 23:17:56 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 23:18:16 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:18:16 | WARNING  | backend_lib.main | GetCurrentBook: audio file missing for audio_id='1712000000', skipping
+2026-04-01 23:18:38 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:18:38 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:18:38 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:18:38 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:18:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:18:39 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:18:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:18:39 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:20:15 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:20:15 | INFO     | backend_lib.main | GetCurrentBook: no analytics records found (email_filter='')
+2026-04-01 23:20:24 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:20:24 | INFO     | backend_lib.main | GetCurrentBook: no analytics records found (email_filter='')
+2026-04-01 23:23:35 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:23:35 | INFO     | backend_lib.main | GetCurrentBook: no analytics records found (email_filter='')
+2026-04-01 23:23:43 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:23:43 | INFO     | backend_lib.main | GetCurrentBook: no analytics records found (email_filter='')
+2026-04-01 23:31:56 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 23:32:17 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 23:32:33 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 23:32:33 | INFO     | backend_lib.main | Updated current book for jane@example.com to 1712000000
+2026-04-01 23:33:43 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 23:33:54 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-01 23:37:02 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:37:42 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:45:16 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 23:45:16 | INFO     | backend_lib.main | Updated current book for amritpandey113@gmail.com to 110
+2026-04-01 23:45:17 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 23:45:17 | INFO     | backend_lib.main | Updated current book for amritpandey113@gmail.com to 110
+2026-04-01 23:53:03 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:53:13 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:53:26 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 23:53:26 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 23:53:27 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 23:53:27 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 23:53:27 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 23:53:27 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 23:53:28 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-01 23:53:28 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-01 23:53:40 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:53:40 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:53:40 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:53:40 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:53:40 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:53:40 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:53:40 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:53:40 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:54:49 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 23:54:49 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-01 23:54:51 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:54:53 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:54:53 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:54:53 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:54:53 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:54:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:54:55 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:54:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:54:55 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:54:56 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 23:54:56 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-01 23:55:48 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:55:51 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:55:51 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:55:51 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:55:51 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:55:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:55:54 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:55:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:55:54 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:55:54 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 23:55:54 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-01 23:57:00 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:57:00 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:57:07 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:57:07 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:57:09 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 23:57:09 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-01 23:58:13 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-01 23:58:18 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:58:18 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:58:18 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:58:18 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:58:20 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:58:20 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:58:20 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-01 23:58:20 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-01 23:58:21 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-01 23:58:21 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:24 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:24 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:28 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:28 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:28 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:28 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:32 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:32 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:34 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:34 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:37 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:37 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:41 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:41 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:44 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:44 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:47 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:47 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:50 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:50 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:52 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:52 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:00:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:00:54 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:00:55 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:00:55 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:01:09 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:01:32 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:01:32 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:01:36 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:01:36 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:01:36 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:01:36 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:01:36 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:01:36 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:01:37 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:01:37 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:01:37 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:01:37 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:01:39 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:01:39 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:01:42 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:01:42 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:01:45 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:01:45 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:01:48 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:01:48 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:01:51 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:01:51 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:01:54 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:01:54 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:01:57 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:01:57 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:02:03 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-02 00:02:03 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-02 00:02:03 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:02:03 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:02:06 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:02:06 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:02:32 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:02:40 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:09:55 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:09:55 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:09:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:09:55 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:09:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:09:55 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:09:56 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:09:56 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:09:56 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:09:56 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:09:58 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:09:58 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:10:01 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:10:01 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:10:04 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:10:04 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:10:07 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:10:07 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:10:10 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:10:10 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:10:13 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:10:13 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:10:16 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:10:16 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:10:33 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:11:11 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:14:56 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:15:04 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:15:22 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:15:31 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:15:31 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 301
+2026-04-02 00:15:31 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-02 00:15:31 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-02 00:15:32 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-02 00:15:32 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-02 00:15:32 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-02 00:15:32 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-02 00:15:32 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-02 00:15:32 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-02 00:15:34 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:15:34 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 301
+2026-04-02 00:15:39 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:15:39 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:15:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:15:39 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:15:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:15:39 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:15:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:15:39 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:15:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:15:39 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:15:42 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:15:42 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:15:45 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:15:45 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:15:48 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:15:48 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:15:48 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:15:48 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:15:56 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:16:03 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:16:03 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:16:03 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:16:03 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:16:03 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:16:03 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:16:04 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:16:04 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:16:05 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:16:05 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:16:05 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:16:05 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:16:06 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:16:06 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:16:09 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:16:09 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:16:12 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:16:12 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:16:16 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:17:17 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:17:17 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:17:51 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:18:48 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-02 00:18:55 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-02 00:20:54 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:20:54 | INFO     | backend_lib.main | No current book found for email='sufal1222322@gmail.com'
+2026-04-02 00:20:54 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:20:54 | INFO     | backend_lib.main | No current book found for email='sufal1222322@gmail.com'
+2026-04-02 00:20:54 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:20:54 | INFO     | backend_lib.main | No current book found for email='sufal1222322@gmail.com'
+2026-04-02 00:20:58 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:20:58 | INFO     | backend_lib.main | No current book found for email='sufal1222322@gmail.com'
+2026-04-02 00:20:58 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:20:58 | INFO     | backend_lib.main | No current book found for email='sufal1222322@gmail.com'
+2026-04-02 00:20:58 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:20:58 | INFO     | backend_lib.main | No current book found for email='sufal1222322@gmail.com'
+2026-04-02 00:21:06 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:21:06 | INFO     | backend_lib.main | No current book found for email='sufal1222322@gmail.com'
+2026-04-02 00:21:15 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:21:15 | INFO     | backend_lib.main | No current book found for email='sufal1222322@gmail.com'
+2026-04-02 00:21:20 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:20 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:20 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:21:20 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:21:20 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:21:20 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:21:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:21:21 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:21:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:21:21 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:21:23 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:23 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:26 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:26 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:29 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:29 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:32 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:32 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:35 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:35 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:38 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:38 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:41 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:41 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:44 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:44 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:47 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:47 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:50 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:50 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:53 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:53 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:56 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:56 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:21:59 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:21:59 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:22:02 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:22:02 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:22:09 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:25:31 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:25:31 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:27:29 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:27:29 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:34:18 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:37:31 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:37:31 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:06 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:06 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:07 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:07 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:24 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:24 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:28 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:28 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:28 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:38:29 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:39:24 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:39:24 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:39:47 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:39:47 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:39:51 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:41:00 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:41:18 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:41:19 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:41:23 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:42:53 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:42:53 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:43:14 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:14 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 201
+2026-04-02 00:43:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='201' -> file='audio_files/audio201.wav'
+2026-04-02 00:43:14 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio201.wav'
+2026-04-02 00:43:15 | DEBUG    | backend_lib.main | Audio requested: audio_id='201' -> file='audio_files/audio201.wav'
+2026-04-02 00:43:15 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio201.wav'
+2026-04-02 00:43:15 | DEBUG    | backend_lib.main | Audio requested: audio_id='201' -> file='audio_files/audio201.wav'
+2026-04-02 00:43:15 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio201.wav'
+2026-04-02 00:43:16 | DEBUG    | backend_lib.main | Audio requested: audio_id='201' -> file='audio_files/audio201.wav'
+2026-04-02 00:43:16 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio201.wav'
+2026-04-02 00:43:17 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:17 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 201
+2026-04-02 00:43:27 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:27 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 602
+2026-04-02 00:43:27 | DEBUG    | backend_lib.main | Audio requested: audio_id='602' -> file='audio_files/audio602.wav'
+2026-04-02 00:43:27 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio602.wav'
+2026-04-02 00:43:27 | DEBUG    | backend_lib.main | Audio requested: audio_id='602' -> file='audio_files/audio602.wav'
+2026-04-02 00:43:27 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio602.wav'
+2026-04-02 00:43:27 | DEBUG    | backend_lib.main | Audio requested: audio_id='602' -> file='audio_files/audio602.wav'
+2026-04-02 00:43:27 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio602.wav'
+2026-04-02 00:43:29 | DEBUG    | backend_lib.main | Audio requested: audio_id='602' -> file='audio_files/audio602.wav'
+2026-04-02 00:43:29 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio602.wav'
+2026-04-02 00:43:29 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:29 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 602
+2026-04-02 00:43:32 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:32 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 602
+2026-04-02 00:43:38 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:38 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 501
+2026-04-02 00:43:38 | DEBUG    | backend_lib.main | Audio requested: audio_id='501' -> file='audio_files/audio501.wav'
+2026-04-02 00:43:38 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio501.wav'
+2026-04-02 00:43:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='501' -> file='audio_files/audio501.wav'
+2026-04-02 00:43:39 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio501.wav'
+2026-04-02 00:43:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='501' -> file='audio_files/audio501.wav'
+2026-04-02 00:43:39 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio501.wav'
+2026-04-02 00:43:40 | DEBUG    | backend_lib.main | Audio requested: audio_id='501' -> file='audio_files/audio501.wav'
+2026-04-02 00:43:40 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio501.wav'
+2026-04-02 00:43:41 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:41 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 501
+2026-04-02 00:43:52 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:52 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 00:43:52 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 00:43:52 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 00:43:52 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 00:43:52 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 00:43:52 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 00:43:52 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 00:43:52 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 00:43:52 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 00:43:53 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 00:43:53 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 00:43:55 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:55 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 00:43:58 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:43:58 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 00:44:05 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:44:09 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:44:09 | INFO     | backend_lib.main | No current book found for email='user@sunn.ai'
+2026-04-02 00:44:17 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:44:17 | INFO     | backend_lib.main | No current book found for email='user@sunn.ai'
+2026-04-02 00:44:17 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:45:03 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:45:03 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:45:03 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:45:03 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:45:03 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:45:03 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:45:06 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:45:06 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:45:15 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:45:57 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:46:03 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:46:07 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:46:07 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:46:07 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:46:07 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:46:07 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:46:07 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:46:10 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:46:10 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:48:35 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:50:55 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:50:58 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:51:21 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:51:41 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:51:41 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:51:41 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 00:51:41 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 00:51:41 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 00:51:41 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 00:51:44 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:51:44 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:51:44 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 00:51:44 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 00:51:44 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 00:51:44 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 00:51:47 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:51:47 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:51:50 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:51:50 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:51:53 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:51:53 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:51:56 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:51:56 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:52:02 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:55:11 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:56:49 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:56:49 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:56:49 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 00:56:49 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 00:56:49 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 00:56:49 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 00:56:52 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:56:52 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:56:55 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:56:55 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:56:55 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 00:56:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 00:56:55 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 00:56:55 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 00:56:55 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 00:57:03 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:57:08 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:57:08 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:57:08 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:57:08 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:57:08 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:57:08 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:57:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:57:10 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:57:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:57:10 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:57:11 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:57:11 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:57:14 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:57:14 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:57:17 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:57:17 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:57:20 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:57:20 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:57:26 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:57:27 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:57:27 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:57:27 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:57:27 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:57:27 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:57:27 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:57:30 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:57:30 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:57:36 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:58:46 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:58:46 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:58:46 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:58:46 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:58:46 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:58:46 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:58:49 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:58:49 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:58:50 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:58:50 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:58:50 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:58:50 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:58:52 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:58:52 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:58:55 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:58:55 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:58:58 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:58:58 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:01 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:01 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:04 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:04 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:08 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 00:59:10 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:10 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:59:10 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:59:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 00:59:10 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 00:59:13 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:13 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:17 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:17 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:20 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:20 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:22 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:22 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:32 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:32 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:35 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:35 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:38 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:38 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:41 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 00:59:41 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 00:59:45 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:02:25 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:02:28 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:02:28 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:02:28 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:02:28 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:02:28 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:02:28 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:02:29 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:02:29 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:02:29 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:02:29 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:02:31 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:02:31 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:02:34 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:02:34 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:02:37 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:02:37 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:02:42 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:02:44 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:02:44 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:02:44 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:02:44 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:02:44 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:02:44 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:02:47 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:02:47 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:03:25 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:06:07 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:06:18 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:06:27 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:06:53 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:06:58 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:09:41 | INFO     | backend_lib.main | Starting Flask server on port 5001
+2026-04-02 01:09:47 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:09:51 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:09:51 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:09:51 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:09:51 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:09:51 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:09:51 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:09:55 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:09:55 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:09:56 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:09:56 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:09:56 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:09:56 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:09:58 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:09:58 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:09:59 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:09:59 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:10:01 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:10:01 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:10:04 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:10:04 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:10:07 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:10:07 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:10:10 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:10:10 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:10:16 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:10:30 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:10:30 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:10:30 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:10:30 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:10:30 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:10:30 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:10:30 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:10:30 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:10:33 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:10:33 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:10:35 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:10:35 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:10:35 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:10:35 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:10:36 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:10:36 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:10:39 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:10:39 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:01 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:11:09 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:09 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:12 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:12 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:15 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:15 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:18 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:18 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:21 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:21 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:24 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:24 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:27 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:27 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:30 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:30 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:11:34 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:34 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:11:34 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:11:34 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:11:34 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:11:34 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:11:34 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:11:34 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:11:34 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:11:34 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:11:34 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:11:34 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:11:37 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:37 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:11:39 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:11:39 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:11:40 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:40 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:11:47 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:47 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:11:47 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:11:47 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:11:47 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:11:47 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:11:47 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:11:47 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:11:47 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:11:47 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:11:50 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:50 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:11:53 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:53 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:11:56 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:56 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:11:59 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:11:59 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:06 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:12:08 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:08 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:08 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:08 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:08 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:08 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:08 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:08 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:08 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:08 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:08 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:08 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:11 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:11 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:11 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:11 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:11 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:11 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:14 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:14 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:19 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:12:31 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:31 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:31 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:31 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:31 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:31 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:33 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:33 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:33 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:12:33 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:12:34 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:34 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:37 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:37 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:41 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:41 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:44 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:44 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:47 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:47 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:51 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:51 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:12:54 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:12:54 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:13:10 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:14:53 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:14:53 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:14:53 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:14:53 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:14:53 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:14:53 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:14:53 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:14:53 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:14:53 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:14:53 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:14:56 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:14:56 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:14:59 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:14:59 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:15:02 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:15:02 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:15:05 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:15:05 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:15:06 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:15:06 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:15:08 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:15:08 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:16:58 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:16:58 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:02 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:02 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:05 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:05 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:08 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:08 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:11 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:11 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:13 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:13 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:15 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:15 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:19 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:19 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:33 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:17:34 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:34 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:17:34 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:17:34 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:17:34 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:17:34 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:17:37 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:17:37 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:15 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:15 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:18 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:18 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:22 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:22 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:25 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:25 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:28 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:28 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:31 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:31 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:34 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:34 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:37 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:37 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:40 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:40 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:41 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:41 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:45 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:45 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:48 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:48 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:51 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:51 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:54 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:54 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:18:57 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:18:57 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:00 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:00 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:03 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:03 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:06 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:06 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:09 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:09 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:12 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:12 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:14 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:14 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:19 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:19:21 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:21 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:19:21 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:19:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:19:21 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:19:24 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:24 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:19:26 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:26 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:19:26 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:19:26 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:19:26 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:19:26 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:19:28 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:19:28 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:19:28 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:19:28 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:19:29 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:29 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:19:32 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:32 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:19:35 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:35 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:19:38 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:38 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:19:44 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:19:45 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:45 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:19:45 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:19:45 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:19:45 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:19:45 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:19:48 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:48 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:19:51 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:51 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:19:54 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:19:54 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 01:19:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:19:54 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:19:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:19:54 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:24:53 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:24:54 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:24:54 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 01:24:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:24:54 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:24:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:24:54 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:24:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:24:54 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:24:54 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:24:54 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:24:57 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:24:57 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 01:25:00 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:25:00 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 01:25:02 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:25:02 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:25:02 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:25:02 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:25:02 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:25:02 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:25:04 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:25:04 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:25:04 | DEBUG    | backend_lib.main | Audio requested: audio_id='103' -> file='audio_files/audio103.wav'
+2026-04-02 01:25:04 | INFO     | backend_lib.main | Serving audio file: 'audio103.wav'
+2026-04-02 01:25:05 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:25:05 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 103
+2026-04-02 01:25:06 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:25:06 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 105
+2026-04-02 01:25:06 | DEBUG    | backend_lib.main | Audio requested: audio_id='105' -> file='audio_files/audio105.wav'
+2026-04-02 01:25:06 | INFO     | backend_lib.main | Serving audio file: 'audio105.wav'
+2026-04-02 01:25:06 | DEBUG    | backend_lib.main | Audio requested: audio_id='105' -> file='audio_files/audio105.wav'
+2026-04-02 01:25:06 | INFO     | backend_lib.main | Serving audio file: 'audio105.wav'
+2026-04-02 01:25:06 | DEBUG    | backend_lib.main | Audio requested: audio_id='105' -> file='audio_files/audio105.wav'
+2026-04-02 01:25:06 | INFO     | backend_lib.main | Serving audio file: 'audio105.wav'
+2026-04-02 01:25:06 | DEBUG    | backend_lib.main | Audio requested: audio_id='105' -> file='audio_files/audio105.wav'
+2026-04-02 01:25:06 | INFO     | backend_lib.main | Serving audio file: 'audio105.wav'
+2026-04-02 01:25:09 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:25:09 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 105
+2026-04-02 01:26:11 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:11 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 01:26:11 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:26:11 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:26:14 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:14 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 01:26:15 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:15 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:26:15 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:26:15 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:26:15 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:26:15 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:26:18 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:18 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:26:22 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:22 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 114
+2026-04-02 01:26:22 | DEBUG    | backend_lib.main | Audio requested: audio_id='114' -> file='audio_files/audio114.wav'
+2026-04-02 01:26:22 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio114.wav'
+2026-04-02 01:26:23 | DEBUG    | backend_lib.main | Audio requested: audio_id='114' -> file='audio_files/audio114.wav'
+2026-04-02 01:26:23 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio114.wav'
+2026-04-02 01:26:23 | DEBUG    | backend_lib.main | Audio requested: audio_id='114' -> file='audio_files/audio114.wav'
+2026-04-02 01:26:23 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio114.wav'
+2026-04-02 01:26:24 | DEBUG    | backend_lib.main | Audio requested: audio_id='114' -> file='audio_files/audio114.wav'
+2026-04-02 01:26:24 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio114.wav'
+2026-04-02 01:26:25 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:25 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 114
+2026-04-02 01:26:28 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:28 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 114
+2026-04-02 01:26:33 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:26:37 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:37 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:26:37 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:26:37 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:26:37 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:26:37 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:26:37 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:26:37 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:26:37 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:26:37 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:26:43 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:26:47 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:47 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:26:47 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:26:47 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:26:47 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:26:47 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:26:47 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:26:47 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:26:47 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:26:47 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:26:50 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:50 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:26:53 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:53 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:26:56 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:56 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:26:59 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:26:59 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:27:02 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:27:02 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:27:07 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:27:09 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:27:09 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:27:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:27:10 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:27:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:27:10 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:27:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:27:10 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:27:10 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:27:10 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:27:12 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:27:12 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:27:15 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:27:15 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:27:21 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:27:21 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:27:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:27:21 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:27:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:27:21 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:27:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:27:21 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:27:21 | DEBUG    | backend_lib.main | Audio requested: audio_id='101' -> file='audio_files/audio101.wav'
+2026-04-02 01:27:21 | INFO     | backend_lib.main | Serving audio file: 'audio101.wav'
+2026-04-02 01:27:24 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:27:24 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 101
+2026-04-02 01:27:28 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:27:28 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 102
+2026-04-02 01:27:28 | DEBUG    | backend_lib.main | Audio requested: audio_id='102' -> file='audio_files/audio102.wav'
+2026-04-02 01:27:28 | INFO     | backend_lib.main | Serving audio file: 'audio102.wav'
+2026-04-02 01:29:28 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:29:28 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:31:46 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:31:46 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:34:36 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:34:42 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:36:25 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:38:12 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:38:22 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:38:38 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:39:30 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:39:30 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 301
+2026-04-02 01:39:30 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-02 01:39:30 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-02 01:39:31 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-02 01:39:31 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-02 01:39:31 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-02 01:39:31 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-02 01:39:32 | DEBUG    | backend_lib.main | Audio requested: audio_id='301' -> file='audio_files/audio301.wav'
+2026-04-02 01:39:32 | WARNING  | backend_lib.main | Audio file not found: 'audio_files/audio301.wav'
+2026-04-02 01:39:33 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:39:33 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 301
+2026-04-02 01:39:40 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:39:40 | INFO     | backend_lib.main | No current book found for email='user@sunn.ai'
+2026-04-02 01:39:48 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:39:51 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:40:03 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:40:14 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:40:14 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 01:40:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:40:14 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:40:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:40:14 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:40:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:40:14 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:40:14 | DEBUG    | backend_lib.main | Audio requested: audio_id='104' -> file='audio_files/audio104.wav'
+2026-04-02 01:40:14 | INFO     | backend_lib.main | Serving audio file: 'audio104.wav'
+2026-04-02 01:40:17 | DEBUG    | backend_lib.main | Analytics request received
+2026-04-02 01:40:17 | INFO     | backend_lib.main | Updated current book for sufal1222322@gmail.com to 104
+2026-04-02 01:40:22 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:40:23 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:40:46 | DEBUG    | backend_lib.main | GetCurrentBook request received
+2026-04-02 01:40:46 | DEBUG    | backend_lib.main | GetCurrentBook request received

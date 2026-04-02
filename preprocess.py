@@ -1,13 +1,15 @@
 # ==============================
-# Nepali Audiobook Preprocessing
+# Nepali Audiobook Preprocessing (Robust Version)
 # ==============================
 
-import os
 import re
 import unicodedata
 from pathlib import Path
 from pdf2image import convert_from_path
 import pytesseract
+from logger_config import get_logger
+
+logger = get_logger("preprocess")
 
 # ==============================
 # PATH CONFIGURATION
@@ -18,9 +20,8 @@ OCR_DIR = BASE_DIR / "ocr_text"
 CLEAN_DIR = BASE_DIR / "clean_text"
 FINAL_DIR = BASE_DIR / "final_sentences"
 
-OCR_DIR.mkdir(parents=True, exist_ok=True)
-CLEAN_DIR.mkdir(parents=True, exist_ok=True)
-FINAL_DIR.mkdir(parents=True, exist_ok=True)
+for d in [OCR_DIR, CLEAN_DIR, FINAL_DIR]:
+    d.mkdir(parents=True, exist_ok=True)
 
 # ==============================
 # DIGIT NORMALIZATION
@@ -29,77 +30,107 @@ FINAL_DIR.mkdir(parents=True, exist_ok=True)
 ARABIC_TO_NEPALI = str.maketrans("0123456789", "०१२३४५६७८९")
 
 NEPALI_DIGIT_MAP = {
-    '०':0,'१':1,'२':2,'३':3,'४':4,
-    '५':5,'६':6,'७':7,'८':8,'९':9
+    '०': 0, '१': 1, '२': 2, '३': 3, '४': 4,
+    '५': 5, '६': 6, '७': 7, '८': 8, '९': 9
 }
 
 ONES = [
-"शून्य","एक","दुई","तीन","चार",
-"पाँच","छ","सात","आठ","नौ"
+    "शून्य","एक","दुई","तीन","चार",
+    "पाँच","छ","सात","आठ","नौ"
 ]
 
 TENS = {
-10:"दस",11:"एघार",12:"बाह्र",13:"तेह्र",14:"चौध",
-15:"पन्ध्र",16:"सोह्र",17:"सत्र",18:"अठार",19:"उन्नाइस",
-20:"बीस",30:"तीस",40:"चालीस",50:"पचास",
-60:"साठी",70:"सत्तरी",80:"असी",90:"नब्बे"
+    10:"दस",11:"एघार",12:"बाह्र",13:"तेह्र",14:"चौध",
+    15:"पन्ध्र",16:"सोह्र",17:"सत्र",18:"अठार",19:"उन्नाइस",
+    20:"बीस",30:"तीस",40:"चालीस",50:"पचास",
+    60:"साठी",70:"सत्तरी",80:"असी",90:"नब्बे"
 }
 
-def nepali_number_to_int(nep):
-    return int("".join(str(NEPALI_DIGIT_MAP[d]) for d in nep))
+# ==============================
+# SAFE NUMBER HELPERS
+# ==============================
+
+def safe_nepali_to_int(text):
+    digits = []
+    for ch in text:
+        if ch in NEPALI_DIGIT_MAP:
+            digits.append(str(NEPALI_DIGIT_MAP[ch]))
+        else:
+            return None  # invalid OCR digit
+    return int("".join(digits)) if digits else None
+
 
 def int_to_nepali_words(n):
+    if n is None:
+        return ""
 
     if n < 10:
         return ONES[n]
 
     if n < 20:
-        return TENS[n]
+        return TENS.get(n, str(n))
 
     if n < 100:
-        tens = (n//10)*10
-        rest = n%10
-        if rest == 0:
-            return TENS[tens]
-        return TENS[tens] + " " + ONES[rest]
+        tens = (n // 10) * 10
+        rest = n % 10
+        return TENS[tens] if rest == 0 else f"{TENS[tens]} {ONES[rest]}"
 
     if n < 1000:
-        h = n//100
-        r = n%100
-        if r == 0:
-            return ONES[h] + " सय"
-        return ONES[h] + " सय " + int_to_nepali_words(r)
+        h, r = n // 100, n % 100
+        return f"{ONES[h]} सय" if r == 0 else f"{ONES[h]} सय {int_to_nepali_words(r)}"
 
     if n < 10000:
-        t = n//1000
-        r = n%1000
-        if r == 0:
-            return ONES[t] + " हजार"
-        return ONES[t] + " हजार " + int_to_nepali_words(r)
+        t, r = n // 1000, n % 1000
+        return f"{ONES[t]} हजार" if r == 0 else f"{ONES[t]} हजार {int_to_nepali_words(r)}"
 
-    return str(n)
+    if n < 100000:   # 10,000 – 99,999  (ten-thousands)
+        t, r = n // 1000, n % 1000
+        base = int_to_nepali_words(t) + " हजार"
+        return base if r == 0 else f"{base} {int_to_nepali_words(r)}"
+
+    if n < 10000000:  # 1,00,000 – 99,99,999  (लाख)
+        l, r = n // 100000, n % 100000
+        base = int_to_nepali_words(l) + " लाख"
+        return base if r == 0 else f"{base} {int_to_nepali_words(r)}"
+
+    if n < 1000000000:  # 1,00,00,000 – 99,99,99,999  (करोड)
+        c, r = n // 10000000, n % 10000000
+        base = int_to_nepali_words(c) + " करोड"
+        return base if r == 0 else f"{base} {int_to_nepali_words(r)}"
+
+    return str(n)  # fallback for numbers > 1 अरब
+
 
 def normalize_numbers(text):
-
     text = text.translate(ARABIC_TO_NEPALI)
 
-    def decimal_replace(m):
-        left,right = m.group().split(".")
-        return (
-            int_to_nepali_words(nepali_number_to_int(left))
-            + " दशमलव "
-            + " ".join(ONES[NEPALI_DIGIT_MAP[d]] for d in right)
-        )
+    def replace_number(match):
+        token = match.group()
 
-    text = re.sub(r"[०-९]+\.[०-९]+", decimal_replace, text)
+        # Decimal case
+        if "." in token:
+            try:
+                left, right = token.split(".")
+                left_num = safe_nepali_to_int(left)
+                if left_num is None:
+                    return token
 
-    def int_replace(m):
-        num = nepali_number_to_int(m.group())
-        return int_to_nepali_words(num)
+                right_words = []
+                for d in right:
+                    if d in NEPALI_DIGIT_MAP:
+                        right_words.append(ONES[NEPALI_DIGIT_MAP[d]])
+                    else:
+                        return token  # invalid OCR
 
-    text = re.sub(r"[०-९]+", int_replace, text)
+                return f"{int_to_nepali_words(left_num)} दशमलव {' '.join(right_words)}"
+            except Exception:
+                return token
 
-    return text
+        # Integer case
+        num = safe_nepali_to_int(token)
+        return int_to_nepali_words(num) if num is not None else token
+
+    return re.sub(r"[०-९]+(?:\.[०-९]+)?", replace_number, text)
 
 
 # ==============================
@@ -107,16 +138,23 @@ def normalize_numbers(text):
 # ==============================
 
 def run_ocr(pdf_path):
-
-    pages = convert_from_path(pdf_path, dpi=300)
+    try:
+        pages = convert_from_path(pdf_path, dpi=300)
+    except Exception as e:
+        logger.exception("PDF load failed: %s", e)
+        return ""
 
     texts = []
 
-    for i,page in enumerate(pages,1):
-        print(f"OCR page {i}/{len(pages)}")
-        txt = pytesseract.image_to_string(page, lang="nep")
-        txt = re.sub(r"\n{2,}","\n\n",txt)
-        texts.append(txt)
+    logger.info("OCR: %d pages", len(pages))
+
+    for i, page in enumerate(pages, 1):
+        try:
+            txt = pytesseract.image_to_string(page, lang="nep")
+            txt = re.sub(r"\n{2,}", "\n\n", txt)
+            texts.append(txt)
+        except Exception as e:
+            logger.warning("OCR failed page %d: %s", i, e)
 
     return "\n\n".join(texts)
 
@@ -126,64 +164,64 @@ def run_ocr(pdf_path):
 # ==============================
 
 def basic_clean(text):
-
     lines = text.split("\n")
-
     cleaned = []
 
     for line in lines:
-
         s = line.strip()
-
         if not s:
             continue
 
-        if s in ["हरिबहादुर","हरिबहादुर ।"]:
+        # remove known noise
+        if s in ["हरिबहादुर", "हरिबहादुर ।"]:
             continue
-
         if "हरिवंश आचार्य" in s:
             continue
 
-        s = re.sub(r'^[०-९0-9]+\s+','',s)
+        # remove leading numbers
+        s = re.sub(r'^[०-९0-9]+\s+', '', s)
 
-        if re.match(r'^[०-९0-9\[\]\.\s।]+$',s):
+        # skip numeric-only lines
+        if re.match(r'^[०-९0-9\[\]\.\s।]+$', s):
             continue
 
         cleaned.append(s)
 
     text = "\n".join(cleaned)
 
-    text = re.sub(r"[“”\"\'`]", "", text)
-    text = re.sub(r"\s+\n","\n",text)
+    # remove quotes safely
+    text = re.sub(r"[“”\"'`]", "", text)
 
     return text
 
 
 # ==============================
-# FULL TEXT PREPROCESS
+# FINAL PREPROCESS
 # ==============================
 
 def preprocess_nepali_text(text):
-
     text = unicodedata.normalize("NFC", text)
 
     text = normalize_numbers(text)
 
-    text = re.sub(r"[|¦!?]","।",text)
-    text = re.sub(r"।+","।",text)
+    # normalize punctuation
+    text = re.sub(r"[|¦!?]", "।", text)
+    text = re.sub(r"।{2,}", "।", text)
 
-    text = re.sub(r"\n(?=[^\n])"," ",text)
-    text = re.sub(r"\s+"," ",text)
+    # merge lines safely
+    text = re.sub(r"\n+", " ", text)
+    text = re.sub(r"\s+", " ", text)
 
-    text = re.sub(r"[^\u0900-\u097F\s।]","",text)
+    # KEEP digits + devanagari (less destructive)
+    text = re.sub(r"[^\u0900-\u097F०-९\s।]", "", text)
 
-    raw = text.split("।")
+    # sentence split
+    parts = text.split("।")
 
     sentences = []
-
-    for s in raw:
+    for s in parts:
         s = s.strip()
-        if len(s) > 1:
+        if len(s) > 2:
             sentences.append(s + " ।")
 
     return sentences
@@ -194,40 +232,38 @@ def preprocess_nepali_text(text):
 # ==============================
 
 def process_pdf(pdf_path):
-
     name = pdf_path.stem
+    logger.info("Processing: %s", name)
 
-    print("\nProcessing:", name)
-
-    # OCR
     ocr_text = run_ocr(pdf_path)
 
-    ocr_file = OCR_DIR / f"{name}.txt"
-    ocr_file.write_text(ocr_text,encoding="utf8")
+    if not ocr_text.strip():
+        return {"success": False, "error": "Empty OCR output"}
 
-    # Clean
+    # save OCR
+    (OCR_DIR / f"{name}.txt").write_text(ocr_text, encoding="utf8")
+
     cleaned = basic_clean(ocr_text)
+    (CLEAN_DIR / f"{name}_clean.txt").write_text(cleaned, encoding="utf8")
 
-    clean_file = CLEAN_DIR / f"{name}_clean.txt"
-    clean_file.write_text(cleaned,encoding="utf8")
-
-    # Final preprocess
     try:
         sentences = preprocess_nepali_text(cleaned)
+
         final_file = FINAL_DIR / f"{name}_sentences.txt"
         final_file.write_text("\n".join(sentences), encoding="utf8")
-        
-        stats = {
+
+        logger.info("Done: %d sentences", len(sentences))
+
+        return {
             "success": True,
             "name": name,
             "sentence_count": len(sentences),
             "file_path": str(final_file)
         }
-    except Exception as e:
-        return {"success": False, "error": str(e)}
 
-    print("Saved:", final_file)
-    return stats
+    except Exception as e:
+        logger.exception("Failed: %s", e)
+        return {"success": False, "error": str(e)}
 
 
 # ==============================
@@ -235,15 +271,16 @@ def process_pdf(pdf_path):
 # ==============================
 
 def main():
-
     pdf_files = sorted(BASE_DIR.glob("*.pdf"))
 
-    print("Found PDFs:",len(pdf_files))
+    logger.info("Found %d PDFs", len(pdf_files))
 
+    results = []
     for pdf in pdf_files:
-        process_pdf(pdf)
+        results.append(process_pdf(pdf))
 
-    print("\nAll chapters processed")
+    logger.info("All done")
+    return results
 
 
 if __name__ == "__main__":
